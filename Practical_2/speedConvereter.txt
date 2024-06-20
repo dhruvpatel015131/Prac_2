@@ -1,0 +1,25 @@
+using System;
+
+class SpeedConverter
+{
+    static double KnotsToKph(double knots)
+    {
+        return knots * 1.852; // Conversion factor: 1 knot = 1.852 kph
+    }
+
+    static double KnotsToMph(double knots)
+    {
+        return knots * 1.15078; // Conversion factor: 1 knot = 1.15078 mph
+    }
+
+    static void Main(string[] args)
+    {
+        double knots = 20; // Example speed in knots
+
+        double kph = KnotsToKph(knots);
+        double mph = KnotsToMph(knots);
+
+        Console.WriteLine($"Speed in kph: {kph}");
+        Console.WriteLine($"Speed in mph: {mph}");
+    }
+}

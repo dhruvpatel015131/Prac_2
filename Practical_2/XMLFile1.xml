@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>images/amazon.jpg</ImageUrl>
+		<NavigateUrl>https://amazon.in</NavigateUrl>
+		<AlternateText>
+			Amazon India online shopping site.
+		</AlternateText>
+		<Impressions>5</Impressions>
+		<Keyword>shopping</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/flipkart.jpg</ImageUrl>
+		<NavigateUrl>https://flipkart.in</NavigateUrl>
+		<AlternateText>
+			Flipkart online shopping site
+		</AlternateText>
+		<Impressions>5</Impressions>
+		<Keyword>shopping</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>images/snapdeal.jpg</ImageUrl>
+		<NavigateUrl>https://snapdeal.in</NavigateUrl>
+		<AlternateText>
+			Snapdeal a online shopping site
+		</AlternateText>
+		<Impressions>5</Impressions>
+		<Keyword>shopping</Keyword>
+	</Ad>
+</Advertisements>
